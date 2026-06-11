@@ -76,3 +76,58 @@ nav a:hover {
 .cta-button:hover {
     background-color: #5d6b5a;
 }
+
+/* The Section Wrapper (for padding and background color */
+
+.services-preview {
+    padding: 60px 40px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.services-preview h2 {
+    font-family: Arial, sans-serif;
+    color: #2c3529;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+/* The Parent Flex Container */
+.services-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* The Child Card Boxes */
+.service-card {
+    background-color: #fcfcfc;
+    border: 1px solid #e2e8e2;
+    border-radius: 6px;
+    padding: 30px 20px;
+    flex: 1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* A luxury hover animation to the cards */
+.service-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(44, 53, 41, 0.05);
+}
+
+/* Card Typography Details */
+.service-card h3 {
+    font-family: Arial, sans-serif;
+    color: #2c3529;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-family: Arial, sans-serif;
+    color: #666666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
