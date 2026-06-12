@@ -166,3 +166,42 @@ nav a:hover {
     color: #7a8a76;
     font-weight: bold;
 }
+
+/*The Big Footer Box */
+.spa-footer {
+    background-color: #2c3529;
+    color: #f4f6f3;
+    padding: 40px 20px;
+    border-top: 1px solid #3b4438;
+
+}
+
+/* The Parent Flex Container */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* The Column Content */
+.footer-column h4 {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.footer-column p {
+    font-family: Arial, sans-serif;
+    font-size: 0.85rem;
+    color: #b5c2b1;
+    margin: 5px 0;
+    line-height: 1.4;
+}
+
+/* Aligned the text inside the right column to the right for balance */
+.copyright-info {
+    text-align: right;
+}
