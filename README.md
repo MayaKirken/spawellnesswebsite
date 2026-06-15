@@ -3,7 +3,7 @@
 Serene Oasis is a modern, premium, single-page digital storefront designed for a luxury wellness spa. Built entirely in a local development environment, this project shifts away from tutorial sandboxes to demonstrate clean HTML5 structure, responsive CSS layout architecture, and elegant Vanilla JavaScript user interactions.
 
 ## 🚀 Live Demo
-[View Live Project on Netlify](YOUR_NETLIFY_URL_HERE)
+[View Live Project on Netlify](https://phenomenal-beijinho-b516ba.netlify.app/)
 
 ---
 
